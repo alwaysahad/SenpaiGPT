@@ -1,15 +1,17 @@
-import express, { json } from 'express'
+import express from 'express'
 import cors from 'cors'
 import generate from './chatBot.js'
+import path from 'path'
 
 const app = express()
-const port = 3001
+const port = process.env.PORT || 3001
 
 app.use(cors())
 app.use(express.json())
+app.use(express.static(path.join(__dirname, '../frontend')))
 
 app.get('/', (req, res) => {
-    res.send('Welcome to SenpaiGPT!')
+    res.sendFile(path.join(__dirname, '../frontend/index.html'))
 })
 
 app.post('/chat', async (req, res) => {
