@@ -17,7 +17,7 @@ SenpaiGPT is a simple AI-powered chatbot application that uses the Groq SDK for 
 ## Installation
 1. Clone the repository:
    ```
-   git clone &lt;repository-url&gt;
+   git clone git@github.com:alwaysahad/SenpaiGPT.git
    cd SenpaiGPT
    ```
 
