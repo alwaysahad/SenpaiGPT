@@ -1,4 +1,6 @@
-# SenpaiGPT
+<p align="center">
+  <img src="https://github.com/alwaysahad/SenpaiGPT/blob/main/frontend/senpai.png?raw=true" alt="SenpaiGPT Logo" width="250"/>
+</p>
 
 SenpaiGPT is a simple AI-powered chatbot application that uses the Groq SDK for language model interactions and Tavily for web search capabilities. It includes a backend server built with Express.js and a basic frontend chat interface.
 
