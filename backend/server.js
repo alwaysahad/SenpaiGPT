@@ -2,7 +2,6 @@ import express from 'express'
 import cors from 'cors'
 import generate from './chatBot.js'
 import path from 'path'
-import path from "path";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
