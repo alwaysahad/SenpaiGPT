@@ -17,6 +17,7 @@ export default async function generate(message, threadId) {
             role: 'system',
             content: `You are a smart personal assistant.
                     If you know the answer to a question, answer it directly in plain English.
+                    If the result is heavy on words, provide result pointwise.
                     If the answer requires real-time, local, or up-to-date information, or if you don’t know the answer, use the available tools to find it.
                     You have access to the following tool:
                     webSearch(query: string): Use this to search the internet for current or unknown information.
